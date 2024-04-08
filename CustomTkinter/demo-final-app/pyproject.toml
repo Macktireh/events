@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ctktodo"
+version = "0.1.0"
+description = "simple todo app with customtkinter"
+authors = ["Macktireh <abdimack97@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.2"
+customtkinter = "^5.2.2"
+httpx = "^0.27.0"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
