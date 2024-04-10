@@ -175,19 +175,22 @@ class: 'text-white'
 ---
 
 <div style="display:flex; justify-content:center; gap:10px">
-<div>
+<div style="display:flex; justify-content: center; align-items: start; flex-direction: column">
+
+## Tkinter
+
 
 ```py
-from customtkinter import CTk, CTkButton
+from tkinter import Tk, Button
 
 
-class App(CTk):
+class App(Tk):
     def __init__(self) -> None:
         super().__init__()
         self.title("My App")
         self.geometry("400x150")
         
-        self.button = CTkButton(
+        self.button = Button(
             self, text="my button", command=self.callback
         )
         self.button.pack(padx=20, pady=20)
@@ -202,19 +205,21 @@ if __name__ == "__main__":
 ```
 
 </div>
-<div style="display:flex; justify-content:center;align-items: center">
+<div style="display:flex; justify-content: center; align-items: start; flex-direction: column">
+
+## CustomTkinter
 
 ```py
-from tkinter import Tk, Button
+from customtkinter import CTk, CTkButton
 
 
-class App(Tk):
+class App(CTk):
     def __init__(self) -> None:
         super().__init__()
         self.title("My App")
         self.geometry("400x150")
         
-        self.button = Button(
+        self.button = CTkButton(
             self, text="my button", command=self.callback
         )
         self.button.pack(padx=20, pady=20)
