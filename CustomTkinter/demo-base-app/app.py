@@ -1,6 +1,6 @@
 from typing import List
 
-from customtkinter import CTk, CTkLabel, CTkScrollableFrame
+from customtkinter import CTk, CTkLabel
 
 from config.settings import AssetsImages
 from utils.types import Task
