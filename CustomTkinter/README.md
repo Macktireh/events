@@ -1,19 +1,9 @@
-<p style="display:flex; justify-content:center; gap:10px">
+<p align="center">
     <img src="https://customtkinter.tomschimansky.com/img/icon.ico" width="300px" style="display:inline" />
-</p>
-<h1 style="display:flex; justify-content:center; gap:10px">
+    <h1 style="display:flex; justify-content:center; gap:10px" align="center">
     Découverte de CustomTkinter
 </h1>
-
-
-## Sommaire
-
-1.  Qu’est-ce que CustomTkinter ?
-2.  Pourquoi utiliser ?
-3.  Installation
-3.  Démo code
-4.  Démo Application réelle (avec auth, navigation, dashboard, …)
-5.  Ressources pour en savoir plus
+</p>
 
 
 ## Qu’est-ce que ?
