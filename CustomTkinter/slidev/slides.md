@@ -6,7 +6,7 @@ favicon: https://customtkinter.tomschimansky.com/img/icon.ico
 title: Découverte de CustomTkinter
 ---
 
-# Découvrir CustomTkinter
+# Découverte de CustomTkinter
 
 ---
 layout: center
@@ -19,8 +19,8 @@ class: 'text-white'
 
 1.  Qu’est-ce que CustomTkinter ?
 2.  Pourquoi utiliser ?
-3.  Création de votre première application CustomTkinter
-4.  Démo d’une application complexe (avec auth, navigation, dashboard, …)
+3.  Démo code
+4.  Démo Application réelle (avec auth, navigation, dashboard, …)
 5.  Ressources pour en savoir plus
 
 ---
@@ -242,14 +242,14 @@ layout: center
 class: 'text-white'
 ---
 
-# Live coding
+# Démo code
 
 ---
 layout: center
 class: 'text-white'
 ---
 
-# Démo d’une application complexe
+# Démo d’une application réelle
 
 
 ---
