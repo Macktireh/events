@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ctktodo"
+name = "todoapp"
 version = "0.1.0"
 description = "simple todo app with customtkinter"
 authors = ["Macktireh <abdimack97@gmail.com>"]
